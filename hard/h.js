@@ -23,8 +23,8 @@ let characters = [
 }
 ]
 
-var tomBMI = characters[0].mass / (characters[0].height * characters[0].height); /*.098 --> 0.1 */
-var jerryBMI = characters[1].mass / (characters[1].height * characters[1].height); /*.45 */
+var tomBMI = characters[0].mass / (characters[0].height * characters[0].height); /* 0.098 --> 0.1 */
+var jerryBMI = characters[1].mass / (characters[1].height * characters[1].height); /* 0.45 */
 
 let tomHasAHigherBMI = new Boolean(tomBMI > jerryBMI);
 
